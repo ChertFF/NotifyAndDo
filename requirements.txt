@@ -1,0 +1,8 @@
+aiogram~=2.21
+environs~=8.0.0
+gino~=1.0.1
+psycopg2
+emoji
+openpyxl
+aiogram_calendar==0.1.1
+aioschedule
