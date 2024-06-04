@@ -53,7 +53,7 @@ async def send_reminder():
 
 
 async def scheduler_tasks():
-    aioschedule.every().day.at("00:05").do(send_reminder)
+    aioschedule.every().day.at("13:45").do(send_reminder)
     while True:
         await aioschedule.run_pending()
         await asyncio.sleep(5)
